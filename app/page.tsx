@@ -95,7 +95,7 @@ export default function Home() {
             <Button
               href="/contact"
               label="Talk to Experts"
-              className="bg-white text-blue-700 hover:bg-blue-50"
+              className="!border !border-white/40 !bg-white/50 !text-blue-800 !backdrop-blur-sm hover:!bg-white/70"
             />
           </div>
         </AnimatedSection>
