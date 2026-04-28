@@ -27,7 +27,7 @@ export const homeContent = {
   hero: {
     headline: "Driving ERP Excellence for Global Enterprises",
     subtext:
-      "We help organizations modernize, optimize, and scale their business systems.",
+      "We help organizations modernize, optimize, and scale their business systems with enterprise-grade consulting and delivery.",
     ctaPrimary: "Talk to Experts",
     ctaSecondary: "Explore Services",
   },
@@ -35,17 +35,17 @@ export const homeContent = {
     {
       name: "SAP",
       details:
-        "End-to-end implementation, ECC to S/4HANA migration, and managed support.",
+        "Implementation, migration, integration, and managed support — aligned to your compliance and reporting needs.",
     },
     {
       name: "Oracle",
       details:
-        "Cloud ERP transformation, integration architecture, and release management.",
+        "Cloud ERP modernization, integration architecture, and release governance for resilient operations.",
     },
     {
       name: "Microsoft Dynamics",
       details:
-        "Process standardization, global rollouts, and post-go-live optimization.",
+        "Process standardization, rollouts, and post-go-live optimization to improve adoption and outcomes.",
     },
   ],
   whyChooseUs: [
@@ -72,12 +72,12 @@ export const services: Service[] = [
     slug: "erp-consulting",
     title: "ERP Consulting",
     overview:
-      "Strategic ERP advisory and implementation services aligned with your global operating model.",
+      "ERP consulting and delivery across core platforms, with a strong focus on implementation excellence and long-term support.",
     capabilities: [
       "ERP roadmap and architecture",
-      "Program governance and PMO support",
       "Implementation and rollout management",
-      "Application managed services",
+      "Integration strategy and delivery",
+      "Post-go-live support and optimization",
     ],
     benefits: [
       "Faster transformation timelines",
@@ -90,12 +90,12 @@ export const services: Service[] = [
     slug: "cloud-transformation",
     title: "Cloud Transformation",
     overview:
-      "Cloud-first modernization strategies for ERP landscapes, enterprise workloads, and integrations.",
+      "Cloud consulting, migration, and operations across major cloud platforms with security and governance built in.",
     capabilities: [
-      "Cloud readiness assessment",
-      "Migration factory and cutover planning",
-      "Hybrid cloud architecture",
-      "Cloud security and compliance",
+      "Cloud readiness assessment and strategy",
+      "Cloud migration planning and execution",
+      "Hybrid and multi-cloud architecture",
+      "Cloud security, backup, and disaster recovery",
     ],
     benefits: [
       "Lower infrastructure overhead",
@@ -126,19 +126,109 @@ export const services: Service[] = [
     slug: "custom-enterprise-applications",
     title: "Custom Enterprise Applications",
     overview:
-      "Design and build scalable applications that integrate seamlessly with your ERP and cloud ecosystem.",
+      "Mobile and web application engineering that improves customer experience, operational efficiency, and digital workflows.",
     capabilities: [
-      "Product and platform engineering",
+      "Mobile application development (Android)",
+      "Web portals (ASP.NET, C#, MSSQL)",
+      "Digital workflow automation (claims, approvals, tracking)",
       "API-first integration development",
-      "Modernization of legacy systems",
-      "UX-led enterprise app design",
     ],
     benefits: [
       "Faster innovation cycles",
       "Reduced technical debt",
       "Improved user adoption",
     ],
-    cta: "Build enterprise-ready applications",
+    cta: "Discuss app development",
+  },
+  {
+    slug: "project-management",
+    title: "Project Management Services",
+    overview:
+      "High-end project management and program delivery support for complex, multi-stakeholder enterprise initiatives.",
+    capabilities: [
+      "Strategic planning, governance, and KPIs",
+      "Stakeholder and risk management",
+      "Global program coordination across time zones",
+      "Performance monitoring and structured reporting",
+    ],
+    benefits: [
+      "More predictable delivery outcomes",
+      "Better stakeholder alignment",
+      "Reduced delivery risk and escalations",
+    ],
+    cta: "Talk to a delivery expert",
+  },
+  {
+    slug: "integration-platforms",
+    title: "Integration Platforms",
+    overview:
+      "Integration consulting and resource deployment to connect applications, data, and APIs across your enterprise landscape.",
+    capabilities: [
+      "API management and integration design",
+      "ETL/data mapping and workflow automation",
+      "Platform expertise: MuleSoft, Boomi, Azure Logic Apps, Apache Camel",
+      "Integration monitoring and operational support",
+    ],
+    benefits: [
+      "Faster system connectivity",
+      "Improved data consistency",
+      "Reduced manual effort and errors",
+    ],
+    cta: "Plan your integration roadmap",
+  },
+  {
+    slug: "infrastructure-consulting",
+    title: "Infrastructure Consulting",
+    overview:
+      "Infrastructure assessment, modernization, and operational enablement for secure, resilient IT environments.",
+    capabilities: [
+      "Infrastructure assessment and strategy (ITIL/COBIT aligned)",
+      "Network design and optimization",
+      "Identity and access management (SSO/MFA/RBAC)",
+      "Disaster recovery and business continuity planning",
+    ],
+    benefits: [
+      "Improved reliability and performance",
+      "Stronger security posture",
+      "Better cost control through modernization",
+    ],
+    cta: "Review your infrastructure",
+  },
+  {
+    slug: "legacy-systems",
+    title: "Legacy Application Management",
+    overview:
+      "Operational support and modernization enablement for business-critical legacy applications in regulated environments.",
+    capabilities: [
+      "Legacy app maintenance and reliability engineering",
+      "Security hardening for older stacks",
+      "Integration with modern platforms via APIs and middleware",
+      "Modernization planning and phased transition support",
+    ],
+    benefits: [
+      "Higher uptime for critical systems",
+      "Reduced operational risk",
+      "Smoother modernization without disruption",
+    ],
+    cta: "Stabilize legacy systems",
+  },
+  {
+    slug: "cybersecurity-consulting",
+    title: "Cybersecurity Consulting",
+    overview:
+      "Security assessment, threat response enablement, and governance support to protect enterprise systems and data.",
+    capabilities: [
+      "Vulnerability assessment and penetration testing",
+      "Application security testing (SAST/DAST/IAST)",
+      "SOC enablement and incident response planning",
+      "Cloud security and compliance (NIST/ISO/GDPR aligned)",
+    ],
+    benefits: [
+      "Reduced security exposure",
+      "Improved compliance readiness",
+      "Faster detection and response",
+    ],
+    cta: "Assess security posture",
   },
 ];
 
@@ -192,16 +282,22 @@ export const testimonials = [
 
 export const aboutContent = {
   overview:
-    "Relevance Infosystems Pvt Ltd helps enterprises modernize core systems through ERP consulting, cloud innovation, and digital transformation programs.",
+    "Relevance Infosystems Pvt Ltd is an IT services provider based in India, founded in 2018. We specialize in technology consulting and enterprise delivery across ERP, cloud, infrastructure, integration, cybersecurity, legacy systems, and application development.",
   mission:
-    "To deliver enterprise-grade technology solutions that create measurable business outcomes at global scale.",
+    "To deliver enterprise-grade technology consulting and delivery that creates measurable business outcomes — with speed, quality, and accountability.",
   vision:
     "To become a trusted transformation partner for organizations building future-ready digital operations.",
   globalDelivery:
-    "Our global delivery model combines onsite strategy leadership with distributed engineering teams for 24/7 support and faster outcomes.",
+    "Our global delivery model combines deep requirement discovery, expert-led screening, and fast deployment of the right consultants — backed by distributed delivery for 24/7 support and rapid outcomes.",
   leadership: [
     "CEO / Managing Director (Placeholder)",
     "Chief Delivery Officer (Placeholder)",
     "Head of Enterprise Solutions (Placeholder)",
   ],
+};
+
+export const contactInfo = {
+  email: "contact@relevins.com",
+  phone: "+91 9740082668",
+  hours: "Monday to Friday, 9 AM to 6 PM (IST)",
 };

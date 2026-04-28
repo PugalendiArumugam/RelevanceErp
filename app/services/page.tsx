@@ -7,7 +7,7 @@ import { services } from "@/data/site-content";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Explore ERP consulting, cloud transformation, data and AI, and custom enterprise application services.",
+    "Explore ERP consulting, cloud services, integration platforms, infrastructure consulting, cybersecurity, legacy modernization, and application development.",
 };
 
 export default function ServicesPage() {
@@ -15,7 +15,7 @@ export default function ServicesPage() {
     <div className="container-enterprise py-16">
       <SectionHeading
         title="Services"
-        subtitle="Scalable, enterprise-grade consulting and technology services for global organizations."
+        subtitle="Enterprise-grade consulting and delivery across ERP, cloud, integration, infrastructure, security, legacy systems, and application engineering."
       />
       <div className="space-y-8">
         {services.map((service) => (
